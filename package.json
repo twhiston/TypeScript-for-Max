@@ -15,6 +15,16 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@types/maxmsp": "^1.0.0"
+    "@types/maxmsp": "^1.0.0",
+    "ava": "^5.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register/transpile-only"
+    ]
   }
 }

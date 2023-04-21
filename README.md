@@ -1,6 +1,8 @@
 TypeScript for Cycling '74 Max / MSP / Jitter
 ===
 
+ln -s /Users/twhiston/Code/DefinitelyTyped/types/maxmsp /Users/twhiston/Code/TypeScript-for-Max/node_modules/@types/maxmsp
+
 Compile TypeScript into JavaScript for use in Max. Examples show how to use modules and output a separate .js file for each .ts file.
 
 Still has plenty of TODO's in the definition files, but the grunt work of writing the definitions has been done and it is useable. Expect minor bugs and missing definitions.
